@@ -1,0 +1,11 @@
+@import '../../../global/variables';
+@import '../../../global/mixins';
+
+header img{
+    width: 35%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    @include mQ(427px){
+        width: 25%;
+    }
+}

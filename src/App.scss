@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import './global/variables';
+
+body{
+    background-color: $lightGrey;
+    font-family: $font;
+}
+
+h2{
+    font-size: 2.35em;
+}
+
+button{
+    background-color: $grey;
+    border-radius: 5px;
+    border-color: $grey;
+}
